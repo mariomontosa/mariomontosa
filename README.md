@@ -45,6 +45,12 @@ My main academic and technical interests sit at the intersection of **financial 
 
 I am particularly interested in **quantitative research, financial machine learning, econometrics, risk modelling and systematic financial analysis**.
 
+<br>
+
+<div align="center">
+  <img width="96%" src="./assets/quant-terminal.svg" alt="Mario Montosa Quant Research Console" />
+</div>
+
 ---
 
 ## `> selected_projects`
@@ -117,6 +123,79 @@ Experimental financial research environment designed as a central interface for 
 
 ---
 
+## `> project_pipeline`
+
+<div align="center">
+  <img width="96%" src="./assets/research-roadmap.svg" alt="Quantitative research project roadmap" />
+</div>
+
+### Planned research projects
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+#### 🧬 Factor Research Lab
+
+Cross-sectional equity factor research environment for testing signals and studying robustness.
+
+`Factor Models` `IC` `Turnover` `Attribution`
+
+</td>
+<td width="33%" valign="top">
+
+#### 🛡️ Portfolio Risk Engine
+
+A portfolio analytics engine focused on risk decomposition and scenario analysis.
+
+`VaR` `CVaR` `Stress Tests` `Monte Carlo`
+
+</td>
+<td width="33%" valign="top">
+
+#### ⚙️ Market Microstructure Lab
+
+Future experimental project focused on order books, execution and market dynamics.
+
+`LOB` `Execution` `Slippage` `Simulation`
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+#### 📉 Econometrics Toolkit
+
+Reproducible notebooks for classical and financial econometrics with implementations in Python and R.
+
+`OLS` `ARIMA` `GARCH` `Diagnostics`
+
+</td>
+<td width="33%" valign="top">
+
+#### 🧠 Model Validation Framework
+
+A structured environment for comparing forecasting models and detecting instability or overfitting.
+
+`Baselines` `Skill Scores` `OOS` `Robustness`
+
+</td>
+<td width="33%" valign="top">
+
+#### 🧪 Derivatives & Stochastic Lab
+
+Longer-term project for numerical derivatives pricing and stochastic-process experiments.
+
+`Black–Scholes` `Monte Carlo` `SDEs` `Greeks`
+
+</td>
+</tr>
+</table>
+
+> These are research directions and planned projects rather than claims of completed work.
+
+---
+
 ## `> quantitative_interests`
 
 <div align="center">
@@ -134,10 +213,20 @@ Experimental financial research environment designed as a central interface for 
 
 ## `> tech_stack`
 
+### Languages
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,r,c,cpp&theme=dark" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+</p>
+
 ### Quantitative computing
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,pytorch&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=pytorch&theme=dark" />
 </p>
 
 <p align="center">
@@ -155,8 +244,8 @@ Experimental financial research environment designed as a central interface for 
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
 </p>
 
 ---
@@ -181,11 +270,17 @@ My academic path is deliberately interdisciplinary: combining **economic intuiti
 
 <div align="center">
 
-<img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mariomontosa&theme=github_dark" />
-
-<br><br>
-
 <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=mariomontosa&bg_color=0d1117&color=58a6ff&line=1f6feb&point=f0f6fc&area=true&area_color=0b3d91&hide_border=true&custom_title=Contribution%20Activity" />
+
+</div>
+
+---
+
+## `> currently_exploring`
+
+<div align="center">
+
+`Financial Time Series` · `Model Validation` · `Portfolio Risk` · `Stochastic Processes` · `MLOps for Research` · `C/C++ for Numerical Finance`
 
 </div>
 

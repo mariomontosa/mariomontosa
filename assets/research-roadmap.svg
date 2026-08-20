@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360" role="img" aria-labelledby="title desc">
+  <title id="title">Mario Montosa research roadmap</title>
+  <desc id="desc">Roadmap of current and future quantitative finance projects.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111F"/><stop offset="100%" stop-color="#0D1B2A"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1F6FEB"/><stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="360" rx="22" fill="url(#bg2)" stroke="#1F6FEB" stroke-opacity="0.38"/>
+  <text x="42" y="54" fill="#F0F6FC" font-family="JetBrains Mono, Consolas, monospace" font-size="24" font-weight="700">RESEARCH ROADMAP</text>
+  <text x="42" y="82" fill="#8B949E" font-family="JetBrains Mono, Consolas, monospace" font-size="13">From forecasting experiments to a broader quantitative research stack</text>
+  <line x1="80" y1="178" x2="1020" y2="178" stroke="url(#line)" stroke-width="4"/>
+
+  <g font-family="JetBrains Mono, Consolas, monospace">
+    <circle cx="120" cy="178" r="16" fill="#1F6FEB"/><circle cx="120" cy="178" r="7" fill="#F0F6FC"/>
+    <text x="120" y="131" text-anchor="middle" fill="#58A6FF" font-size="13">CURRENT</text>
+    <text x="120" y="225" text-anchor="middle" fill="#F0F6FC" font-size="14" font-weight="700">SPY LSTM</text>
+    <text x="120" y="247" text-anchor="middle" fill="#8B949E" font-size="11">forecasting &amp;</text>
+    <text x="120" y="263" text-anchor="middle" fill="#8B949E" font-size="11">evaluation</text>
+
+    <circle cx="350" cy="178" r="14" fill="#238636"/><circle cx="350" cy="178" r="6" fill="#F0F6FC"/>
+    <text x="350" y="131" text-anchor="middle" fill="#56D364" font-size="13">BUILDING</text>
+    <text x="350" y="225" text-anchor="middle" fill="#F0F6FC" font-size="14" font-weight="700">NEZUS</text>
+    <text x="350" y="247" text-anchor="middle" fill="#8B949E" font-size="11">research &amp; trading</text>
+    <text x="350" y="263" text-anchor="middle" fill="#8B949E" font-size="11">infrastructure</text>
+
+    <circle cx="575" cy="178" r="13" fill="#8957E5"/><circle cx="575" cy="178" r="5" fill="#F0F6FC"/>
+    <text x="575" y="131" text-anchor="middle" fill="#BC8CFF" font-size="13">NEXT</text>
+    <text x="575" y="225" text-anchor="middle" fill="#F0F6FC" font-size="14" font-weight="700">FACTOR LAB</text>
+    <text x="575" y="247" text-anchor="middle" fill="#8B949E" font-size="11">cross-sectional factors</text>
+    <text x="575" y="263" text-anchor="middle" fill="#8B949E" font-size="11">&amp; attribution</text>
+
+    <circle cx="800" cy="178" r="13" fill="#D29922"/><circle cx="800" cy="178" r="5" fill="#F0F6FC"/>
+    <text x="800" y="131" text-anchor="middle" fill="#E3B341" font-size="13">PLANNED</text>
+    <text x="800" y="225" text-anchor="middle" fill="#F0F6FC" font-size="14" font-weight="700">RISK ENGINE</text>
+    <text x="800" y="247" text-anchor="middle" fill="#8B949E" font-size="11">VaR · stress tests</text>
+    <text x="800" y="263" text-anchor="middle" fill="#8B949E" font-size="11">portfolio risk</text>
+
+    <circle cx="1000" cy="178" r="13" fill="#0EA5E9"/><circle cx="1000" cy="178" r="5" fill="#F0F6FC"/>
+    <text x="1000" y="131" text-anchor="middle" fill="#38BDF8" font-size="13">LATER</text>
+    <text x="1000" y="225" text-anchor="middle" fill="#F0F6FC" font-size="14" font-weight="700">EXECUTION LAB</text>
+    <text x="1000" y="247" text-anchor="middle" fill="#8B949E" font-size="11">market microstructure</text>
+    <text x="1000" y="263" text-anchor="middle" fill="#8B949E" font-size="11">&amp; simulation</text>
+  </g>
+
+  <rect x="42" y="305" width="1016" height="1" fill="#21262D"/>
+  <text x="42" y="332" fill="#7D8590" font-family="JetBrains Mono, Consolas, monospace" font-size="12">research direction // iterative · empirical · reproducible</text>
+  <text x="1058" y="332" text-anchor="end" fill="#38BDF8" font-family="JetBrains Mono, Consolas, monospace" font-size="12">2026 →</text>
+</svg>

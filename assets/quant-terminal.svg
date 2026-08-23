@@ -1,74 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420" role="img" aria-labelledby="title desc">
-  <title id="title">Mario Montosa Quant Research Console</title>
-  <desc id="desc">A custom dark research console showing current focus areas, tools and research interests.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#08111F"/>
-      <stop offset="55%" stop-color="#0B1930"/>
-      <stop offset="100%" stop-color="#06101B"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0B3D91"/>
-      <stop offset="100%" stop-color="#38BDF8"/>
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="540" viewBox="0 0 1100 540" role="img" aria-labelledby="title desc">
+<title id="title">Nezus Quant Dashboard Overview</title>
+<desc id="desc">Animated overview of the Nezus quantitative trading dashboard with portfolio metrics, equity curve and open positions.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#060B12"/><stop offset=".55" stop-color="#09111D"/><stop offset="1" stop-color="#050A10"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0E1825"/><stop offset="1" stop-color="#09121D"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#14B8A6"/><stop offset="1" stop-color="#67E8F9"/></linearGradient>
+  <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#14B8A6" stop-opacity=".28"/><stop offset="1" stop-color="#14B8A6" stop-opacity="0"/></linearGradient>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="chartClip"><rect x="263" y="277" width="515" height="166" rx="8"/></clipPath>
+  <style>
+    text{font-family:Inter,Segoe UI,Arial,sans-serif}
+    .mono{font-family:JetBrains Mono,Consolas,monospace}
+    .muted{fill:#738095}.label{fill:#91A0B5}.bright{fill:#EEF5FA}.teal{fill:#2DD4BF}.green{fill:#4ADE80}
+    .pulse{animation:pulse 2.2s ease-in-out infinite;transform-origin:center}
+    .trace{stroke-dasharray:900;stroke-dashoffset:900;animation:draw 4.5s ease-in-out infinite}
+    .fade{animation:fade 4.5s ease-in-out infinite}
+    .bar1{animation:b1 3.2s ease-in-out infinite;transform-origin:812px 337px}
+    .bar2{animation:b2 3.2s .25s ease-in-out infinite;transform-origin:840px 337px}
+    .bar3{animation:b3 3.2s .5s ease-in-out infinite;transform-origin:868px 337px}
+    @keyframes pulse{0%,100%{opacity:.45;transform:scale(.72)}50%{opacity:1;transform:scale(1.15)}}
+    @keyframes draw{0%{stroke-dashoffset:900}45%,75%{stroke-dashoffset:0}100%{stroke-dashoffset:-900}}
+    @keyframes fade{0%,8%,100%{opacity:0}25%,78%{opacity:1}}
+    @keyframes b1{0%,100%{transform:scaleY(.58)}50%{transform:scaleY(1)}}@keyframes b2{0%,100%{transform:scaleY(.82)}50%{transform:scaleY(.48)}}@keyframes b3{0%,100%{transform:scaleY(.5)}50%{transform:scaleY(.9)}}
+  </style>
+</defs>
 
-  <rect width="1100" height="420" rx="22" fill="url(#bg)" stroke="#1F6FEB" stroke-opacity="0.45"/>
-  <rect x="1" y="1" width="1098" height="52" rx="21" fill="#0D1726"/>
-  <circle cx="28" cy="27" r="6" fill="#FF5F57"/>
-  <circle cx="48" cy="27" r="6" fill="#FEBC2E"/>
-  <circle cx="68" cy="27" r="6" fill="#28C840"/>
-  <text x="93" y="33" fill="#8B949E" font-family="JetBrains Mono, Consolas, monospace" font-size="14">mario@quant-research:~/workspace</text>
-  <text x="1035" y="33" text-anchor="end" fill="#38BDF8" font-family="JetBrains Mono, Consolas, monospace" font-size="13">ONLINE</text>
+<rect x="1" y="1" width="1098" height="538" rx="20" fill="url(#bg)" stroke="#1E3345"/>
+<rect x="1" y="1" width="1098" height="47" rx="20" fill="#0B131E"/>
+<path d="M1 29v18h1098V29" fill="#0B131E"/>
+<circle cx="25" cy="24" r="5" fill="#FF5F57"/><circle cx="43" cy="24" r="5" fill="#FEBC2E"/><circle cx="61" cy="24" r="5" fill="#28C840"/>
+<text x="84" y="29" class="mono muted" font-size="12">app.nezus.io/overview</text>
+<circle cx="1014" cy="24" r="4" fill="#2DD4BF" class="pulse" filter="url(#glow)"/><text x="1027" y="29" class="mono teal" font-size="11">LIVE</text>
 
-  <text x="34" y="91" fill="#38BDF8" font-family="JetBrains Mono, Consolas, monospace" font-size="14">$ research.status --verbose</text>
-  <text x="34" y="124" fill="#F0F6FC" font-family="JetBrains Mono, Consolas, monospace" font-size="25" font-weight="700">QUANT RESEARCH CONSOLE</text>
-  <rect x="34" y="140" width="310" height="3" rx="1.5" fill="url(#accent)" filter="url(#glow)"/>
+<rect x="1" y="48" width="190" height="491" fill="#070D15"/>
+<text x="24" y="88" class="bright" font-size="20" font-weight="700">NEZUS</text><text x="95" y="88" class="mono teal" font-size="9">QUANT</text>
+<g font-size="12">
+ <rect x="12" y="112" width="166" height="34" rx="7" fill="#12302E"/><rect x="12" y="112" width="3" height="34" rx="2" fill="#2DD4BF"/><text x="33" y="133" class="bright" font-weight="600">Overview</text>
+ <text x="33" y="174" class="label">Research</text><text x="33" y="207" class="label">Market Intel</text><text x="33" y="240" class="label">Lab</text><text x="33" y="273" class="label">Strategies</text><text x="33" y="306" class="label">Models</text><text x="33" y="339" class="label">Performance</text><text x="33" y="372" class="label">Risk</text><text x="33" y="405" class="label">Paper Trading</text><text x="33" y="438" class="label">APIs</text>
+</g>
+<line x1="20" y1="472" x2="170" y2="472" stroke="#172434"/><circle cx="34" cy="500" r="11" fill="#153B38"/><text x="34" y="504" text-anchor="middle" class="teal" font-size="9" font-weight="700">MM</text><text x="53" y="497" class="bright" font-size="10">Mario Montosa</text><text x="53" y="512" class="muted" font-size="9">Research workspace</text>
 
-  <g font-family="JetBrains Mono, Consolas, monospace">
-    <text x="34" y="185" fill="#8B949E" font-size="13">CURRENT FOCUS</text>
-    <text x="34" y="211" fill="#E6EDF3" font-size="15">Financial ML</text>
-    <rect x="190" y="199" width="240" height="9" rx="4.5" fill="#17263B"/><rect x="190" y="199" width="194" height="9" rx="4.5" fill="#1F6FEB"/>
-    <text x="444" y="209" fill="#58A6FF" font-size="12">TIME SERIES</text>
+<text x="220" y="80" class="bright" font-size="20" font-weight="650">Overview</text><text x="220" y="100" class="muted" font-size="11">Portfolio intelligence · all systems operational</text>
+<g>
+ <rect x="220" y="120" width="200" height="105" rx="10" fill="url(#panel)" stroke="#192A3A"/><text x="237" y="144" class="label" font-size="11">NET P&amp;L · MTD</text><text x="237" y="183" class="bright" font-size="27" font-weight="700">+$247.8K</text><rect x="237" y="198" width="67" height="18" rx="9" fill="#12382F"/><text x="270" y="211" text-anchor="middle" class="green" font-size="10">▲ 12.40%</text>
+ <rect x="434" y="120" width="137" height="105" rx="10" fill="url(#panel)" stroke="#192A3A"/><text x="451" y="144" class="label" font-size="11">SHARPE</text><text x="451" y="184" class="bright" font-size="27" font-weight="700">2.8</text><text x="451" y="208" class="muted" font-size="10">30d rolling</text>
+ <rect x="585" y="120" width="137" height="105" rx="10" fill="url(#panel)" stroke="#192A3A"/><text x="602" y="144" class="label" font-size="11">MAX DRAWDOWN</text><text x="602" y="184" class="bright" font-size="27" font-weight="700">−4.04%</text><text x="602" y="208" class="muted" font-size="10">rolling</text>
+ <rect x="736" y="120" width="137" height="105" rx="10" fill="url(#panel)" stroke="#192A3A"/><text x="753" y="144" class="label" font-size="11">LIVE STRATEGIES</text><text x="753" y="184" class="bright" font-size="27" font-weight="700">17</text><text x="787" y="184" class="muted" font-size="12">of 23</text><circle cx="852" cy="139" r="4" fill="#2DD4BF" class="pulse"/>
+ <rect x="887" y="120" width="183" height="105" rx="10" fill="url(#panel)" stroke="#192A3A"/><text x="904" y="144" class="label" font-size="11">SYSTEM HEALTH</text><text x="904" y="177" class="teal" font-size="19" font-weight="650">OPERATIONAL</text><text x="904" y="205" class="muted" font-size="10">9 services · 42ms</text>
+</g>
 
-    <text x="34" y="244" fill="#E6EDF3" font-size="15">Econometrics</text>
-    <rect x="190" y="232" width="240" height="9" rx="4.5" fill="#17263B"/><rect x="190" y="232" width="168" height="9" rx="4.5" fill="#238636"/>
-    <text x="444" y="242" fill="#56D364" font-size="12">MODELLING</text>
+<rect x="220" y="241" width="574" height="218" rx="11" fill="url(#panel)" stroke="#192A3A"/>
+<text x="239" y="270" class="bright" font-size="13" font-weight="600">Portfolio Equity</text><text x="363" y="270" class="muted" font-size="10">aggregated · all desks</text>
+<g font-size="9"><rect x="656" y="253" width="26" height="19" rx="5" fill="#143633"/><text x="669" y="266" text-anchor="middle" class="teal">1D</text><text x="700" y="266" class="muted">1W</text><text x="730" y="266" class="muted">1M</text><text x="760" y="266" class="muted">1Y</text></g>
+<g clip-path="url(#chartClip)">
+ <path d="M263 412L263 391 C286 388 299 397 321 380 S358 357 378 364 S414 386 437 358 S468 329 492 342 S527 368 548 337 S584 307 606 321 S641 348 663 310 S703 276 724 294 S752 321 778 278 L778 443 L263 443Z" fill="url(#area)" class="fade"/>
+ <g stroke="#17293A" stroke-width="1"><path d="M263 310H778M263 354H778M263 398H778"/><path d="M350 277V443M437 277V443M524 277V443M611 277V443M698 277V443"/></g>
+ <path d="M263 391 C286 388 299 397 321 380 S358 357 378 364 S414 386 437 358 S468 329 492 342 S527 368 548 337 S584 307 606 321 S641 348 663 310 S703 276 724 294 S752 321 778 278" fill="none" stroke="url(#line)" stroke-width="2.5" class="trace" filter="url(#glow)"/>
+</g>
+<text x="239" y="438" class="mono muted" font-size="9">09:30</text><text x="742" y="438" class="mono muted" font-size="9">16:00</text>
 
-    <text x="34" y="277" fill="#E6EDF3" font-size="15">Risk & Portfolio</text>
-    <rect x="190" y="265" width="240" height="9" rx="4.5" fill="#17263B"/><rect x="190" y="265" width="148" height="9" rx="4.5" fill="#8957E5"/>
-    <text x="444" y="275" fill="#BC8CFF" font-size="12">ANALYTICS</text>
+<rect x="810" y="241" width="260" height="218" rx="11" fill="url(#panel)" stroke="#192A3A"/>
+<text x="829" y="270" class="bright" font-size="13" font-weight="600">Allocation</text><text x="1018" y="270" class="muted" font-size="9">LIVE</text>
+<g transform="translate(0 0)">
+ <rect x="829" y="303" width="18" height="66" rx="4" fill="#143B38" class="bar1"/><rect x="857" y="287" width="18" height="82" rx="4" fill="#175A54" class="bar2"/><rect x="885" y="319" width="18" height="50" rx="4" fill="#1A766E" class="bar3"/><rect x="913" y="272" width="18" height="97" rx="4" fill="#22A89C"/><rect x="941" y="299" width="18" height="70" rx="4" fill="#2DD4BF"/><rect x="969" y="326" width="18" height="43" rx="4" fill="#67E8F9"/>
+</g>
+<g font-size="9"><text x="829" y="393" class="muted">EQUITIES</text><text x="986" y="393" text-anchor="end" class="bright">48%</text><text x="829" y="414" class="muted">CRYPTO</text><text x="986" y="414" text-anchor="end" class="bright">31%</text><text x="829" y="435" class="muted">CASH / HEDGE</text><text x="986" y="435" text-anchor="end" class="bright">21%</text></g>
 
-    <text x="34" y="310" fill="#E6EDF3" font-size="15">Systems</text>
-    <rect x="190" y="298" width="240" height="9" rx="4.5" fill="#17263B"/><rect x="190" y="298" width="176" height="9" rx="4.5" fill="#D29922"/>
-    <text x="444" y="308" fill="#E3B341" font-size="12">RESEARCH INFRA</text>
-
-    <text x="575" y="185" fill="#8B949E" font-size="13">TOOLBOX</text>
-    <text x="575" y="214" fill="#58A6FF" font-size="15">Python</text>
-    <text x="665" y="214" fill="#E6EDF3" font-size="15">R</text>
-    <text x="705" y="214" fill="#E6EDF3" font-size="15">SQL</text>
-    <text x="770" y="214" fill="#E6EDF3" font-size="15">C</text>
-    <text x="805" y="214" fill="#E6EDF3" font-size="15">C++</text>
-
-    <text x="575" y="250" fill="#58A6FF" font-size="15">PyTorch</text>
-    <text x="665" y="250" fill="#E6EDF3" font-size="15">Pandas</text>
-    <text x="745" y="250" fill="#E6EDF3" font-size="15">NumPy</text>
-    <text x="820" y="250" fill="#E6EDF3" font-size="15">SciPy</text>
-
-    <text x="575" y="286" fill="#58A6FF" font-size="15">FastAPI</text>
-    <text x="665" y="286" fill="#E6EDF3" font-size="15">Git</text>
-    <text x="710" y="286" fill="#E6EDF3" font-size="15">Docker</text>
-    <text x="790" y="286" fill="#E6EDF3" font-size="15">Linux</text>
-
-    <text x="575" y="331" fill="#8B949E" font-size="13">RESEARCH VECTOR</text>
-    <text x="575" y="357" fill="#E6EDF3" font-size="14">markets → models → validation → risk → systems</text>
-  </g>
-
-  <line x1="34" y1="378" x2="1066" y2="378" stroke="#21262D"/>
-  <text x="34" y="403" fill="#7D8590" font-family="JetBrains Mono, Consolas, monospace" font-size="12">Economics × Mathematics × Computation</text>
-  <text x="1066" y="403" text-anchor="end" fill="#38BDF8" font-family="JetBrains Mono, Consolas, monospace" font-size="12">mariomontosa</text>
+<rect x="220" y="475" width="850" height="48" rx="10" fill="#0B1520" stroke="#192A3A"/>
+<text x="239" y="495" class="label" font-size="9">OPEN POSITIONS</text>
+<g font-size="10"><text x="239" y="514" class="bright" font-weight="650">NVDA</text><text x="281" y="514" class="green">LONG +4.51%</text><text x="407" y="514" class="bright" font-weight="650">BTC</text><text x="440" y="514" class="green">LONG +3.74%</text><text x="558" y="514" class="bright" font-weight="650">TSLA</text><text x="598" y="514" class="green">SHORT +1.56%</text><text x="730" y="514" class="bright" font-weight="650">ETH</text><text x="760" y="514" class="green">LONG +7.16%</text><circle cx="1039" cy="510" r="4" fill="#2DD4BF" class="pulse"/></g>
 </svg>

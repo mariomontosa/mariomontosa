@@ -48,7 +48,10 @@ I am particularly interested in **quantitative research, financial machine learn
 <br>
 
 <div align="center">
-  <img width="96%" src="./assets/quant-terminal.svg" alt="Mario Montosa Quant Research Console" />
+  <a href="https://nezus-landing.vercel.app/" title="Open Nezus Quant">
+    <img width="96%" src="./assets/quant-terminal.svg" alt="Animated Nezus Quant dashboard overview" />
+  </a>
+  <sub>Interactive preview — click to explore Nezus Quant</sub>
 </div>
 
 ---

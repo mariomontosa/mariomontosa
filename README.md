@@ -117,6 +117,10 @@ Experimental financial research environment designed as a central interface for 
 ![React](https://img.shields.io/badge/React-0B3D91?style=flat-square&logo=react&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-0B3D91?style=flat-square&logo=sqlite&logoColor=white)
 
+<br>
+
+[![Live Demo](https://img.shields.io/badge/Explore%20Nezus%20Quant-Live%20Demo-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white)](https://nezus-landing.vercel.app/)
+
 </td>
 </tr>
 </table>

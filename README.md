@@ -116,7 +116,6 @@ Experimental financial research environment designed as a central interface for 
 ![FastAPI](https://img.shields.io/badge/FastAPI-0B3D91?style=flat-square&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-0B3D91?style=flat-square&logo=react&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-0B3D91?style=flat-square&logo=sqlite&logoColor=white)
-![Vercel](https://nezus-landing.vercel.app/)
 
 </td>
 </tr>

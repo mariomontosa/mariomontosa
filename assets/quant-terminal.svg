@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420" role="img" aria-labelledby="title desc">
+  <title id="title">Mario Montosa Quant Research Console</title>
+  <desc id="desc">A custom dark research console showing current focus areas, tools and research interests.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08111F"/>
+      <stop offset="55%" stop-color="#0B1930"/>
+      <stop offset="100%" stop-color="#06101B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B3D91"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1100" height="420" rx="22" fill="url(#bg)" stroke="#1F6FEB" stroke-opacity="0.45"/>
+  <rect x="1" y="1" width="1098" height="52" rx="21" fill="#0D1726"/>
+  <circle cx="28" cy="27" r="6" fill="#FF5F57"/>
+  <circle cx="48" cy="27" r="6" fill="#FEBC2E"/>
+  <circle cx="68" cy="27" r="6" fill="#28C840"/>
+  <text x="93" y="33" fill="#8B949E" font-family="JetBrains Mono, Consolas, monospace" font-size="14">mario@quant-research:~/workspace</text>
+  <text x="1035" y="33" text-anchor="end" fill="#38BDF8" font-family="JetBrains Mono, Consolas, monospace" font-size="13">ONLINE</text>
+
+  <text x="34" y="91" fill="#38BDF8" font-family="JetBrains Mono, Consolas, monospace" font-size="14">$ research.status --verbose</text>
+  <text x="34" y="124" fill="#F0F6FC" font-family="JetBrains Mono, Consolas, monospace" font-size="25" font-weight="700">QUANT RESEARCH CONSOLE</text>
+  <rect x="34" y="140" width="310" height="3" rx="1.5" fill="url(#accent)" filter="url(#glow)"/>
+
+  <g font-family="JetBrains Mono, Consolas, monospace">
+    <text x="34" y="185" fill="#8B949E" font-size="13">CURRENT FOCUS</text>
+    <text x="34" y="211" fill="#E6EDF3" font-size="15">Financial ML</text>
+    <rect x="190" y="199" width="240" height="9" rx="4.5" fill="#17263B"/><rect x="190" y="199" width="194" height="9" rx="4.5" fill="#1F6FEB"/>
+    <text x="444" y="209" fill="#58A6FF" font-size="12">TIME SERIES</text>
+
+    <text x="34" y="244" fill="#E6EDF3" font-size="15">Econometrics</text>
+    <rect x="190" y="232" width="240" height="9" rx="4.5" fill="#17263B"/><rect x="190" y="232" width="168" height="9" rx="4.5" fill="#238636"/>
+    <text x="444" y="242" fill="#56D364" font-size="12">MODELLING</text>
+
+    <text x="34" y="277" fill="#E6EDF3" font-size="15">Risk & Portfolio</text>
+    <rect x="190" y="265" width="240" height="9" rx="4.5" fill="#17263B"/><rect x="190" y="265" width="148" height="9" rx="4.5" fill="#8957E5"/>
+    <text x="444" y="275" fill="#BC8CFF" font-size="12">ANALYTICS</text>
+
+    <text x="34" y="310" fill="#E6EDF3" font-size="15">Systems</text>
+    <rect x="190" y="298" width="240" height="9" rx="4.5" fill="#17263B"/><rect x="190" y="298" width="176" height="9" rx="4.5" fill="#D29922"/>
+    <text x="444" y="308" fill="#E3B341" font-size="12">RESEARCH INFRA</text>
+
+    <text x="575" y="185" fill="#8B949E" font-size="13">TOOLBOX</text>
+    <text x="575" y="214" fill="#58A6FF" font-size="15">Python</text>
+    <text x="665" y="214" fill="#E6EDF3" font-size="15">R</text>
+    <text x="705" y="214" fill="#E6EDF3" font-size="15">SQL</text>
+    <text x="770" y="214" fill="#E6EDF3" font-size="15">C</text>
+    <text x="805" y="214" fill="#E6EDF3" font-size="15">C++</text>
+
+    <text x="575" y="250" fill="#58A6FF" font-size="15">PyTorch</text>
+    <text x="665" y="250" fill="#E6EDF3" font-size="15">Pandas</text>
+    <text x="745" y="250" fill="#E6EDF3" font-size="15">NumPy</text>
+    <text x="820" y="250" fill="#E6EDF3" font-size="15">SciPy</text>
+
+    <text x="575" y="286" fill="#58A6FF" font-size="15">FastAPI</text>
+    <text x="665" y="286" fill="#E6EDF3" font-size="15">Git</text>
+    <text x="710" y="286" fill="#E6EDF3" font-size="15">Docker</text>
+    <text x="790" y="286" fill="#E6EDF3" font-size="15">Linux</text>
+
+    <text x="575" y="331" fill="#8B949E" font-size="13">RESEARCH VECTOR</text>
+    <text x="575" y="357" fill="#E6EDF3" font-size="14">markets → models → validation → risk → systems</text>
+  </g>
+
+  <line x1="34" y1="378" x2="1066" y2="378" stroke="#21262D"/>
+  <text x="34" y="403" fill="#7D8590" font-family="JetBrains Mono, Consolas, monospace" font-size="12">Economics × Mathematics × Computation</text>
+  <text x="1066" y="403" text-anchor="end" fill="#38BDF8" font-family="JetBrains Mono, Consolas, monospace" font-size="12">mariomontosa</text>
+</svg>

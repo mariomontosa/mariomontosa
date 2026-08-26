@@ -74,8 +74,8 @@ while cursor <= end:
         seen_x = x
     cursor = (cursor.replace(day=28) + dt.timedelta(days=4)).replace(day=1)
 
-count_match = re.search(r'([\d,]+)\s+contributions?\s+in\s+the\s+last\s+year', page, re.I)
-count = count_match.group(1) if count_match else str(sum(1 for value in cells.values() if value))
+count_match = re.search(r'([\\d,]+)\\s+contributions?', page, re.I)
+count = count_match.group(1) if count_match else "Public GitHub"
 
 legend_x = width - 184
 legend = [

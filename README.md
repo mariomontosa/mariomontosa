@@ -277,13 +277,9 @@ My academic path is deliberately interdisciplinary: combining **economic intuiti
 
 <div align="center">
 
-<a href="https://github.com/mariomontosa?tab=contributions">
-  <img width="70%" src="https://streak-stats.demolab.com?user=mariomontosa&theme=github-dark-blue&hide_border=true&background=0D1117&ring=1F6FEB&fire=38BDF8&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=8B949E" alt="Mario Montosa's GitHub contribution streak" />
+<a href="https://github.com/mariomontosa?tab=contributions" title="Open the live GitHub contribution calendar">
+  <img width="96%" src="./assets/github-activity.svg" alt="Mario Montosa — GitHub contribution activity" />
 </a>
-
-<br>
-
-<sub>Contribution activity — click the card to open the full GitHub calendar</sub>
 
 </div>
 

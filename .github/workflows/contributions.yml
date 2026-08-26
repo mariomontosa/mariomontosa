@@ -29,8 +29,6 @@ jobs:
           python-version: "3.12"
 
       - name: Render real GitHub contributions
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: python scripts/render_contributions.py
 
       - name: Commit updated calendar

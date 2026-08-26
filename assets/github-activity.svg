@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="824" height="184" viewBox="0 0 824 184" role="img" aria-labelledby="title desc">
-<title id="title">Public GitHub contributions in the last year</title>
+<title id="title">GitHub contributions in the last year</title>
 <desc id="desc">Live GitHub contribution calendar for @mariomontosa, updated daily.</desc>
 <rect x="0.5" y="0.5" width="823" height="183" rx="10" fill="#0d1117" stroke="#30363d"/>
-<text x="18" y="25" fill="#f0f6fc" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">Public GitHub contributions in the last year</text>
+<text x="18" y="25" fill="#f0f6fc" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">GitHub contributions in the last year</text>
 <g font-family="Segoe UI,Arial,sans-serif">
 <text x="54" y="40" fill="#f0f6fc" font-size="12">Aug</text><text x="124" y="40" fill="#f0f6fc" font-size="12">Oct</text><text x="180" y="40" fill="#f0f6fc" font-size="12">Nov</text><text x="250" y="40" fill="#f0f6fc" font-size="12">Dec</text><text x="306" y="40" fill="#f0f6fc" font-size="12">Jan</text><text x="376" y="40" fill="#f0f6fc" font-size="12">Feb</text><text x="432" y="40" fill="#f0f6fc" font-size="12">Mar</text><text x="488" y="40" fill="#f0f6fc" font-size="12">Apr</text><text x="544" y="40" fill="#f0f6fc" font-size="12">May</text><text x="614" y="40" fill="#f0f6fc" font-size="12">Jun</text><text x="670" y="40" fill="#f0f6fc" font-size="12">Jul</text><text x="726" y="40" fill="#f0f6fc" font-size="12">Aug</text>
 <text x="17" y="77" fill="#8b949e" font-size="11">Mon</text>

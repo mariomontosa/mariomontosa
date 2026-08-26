@@ -1,5 +1,7 @@
 name: Update contribution calendar
 
+# Visibility refresh: include anonymized private contribution activity when GitHub exposes it.
+
 on:
   workflow_dispatch:
   schedule:

@@ -1,14 +1,24 @@
-# Mario Montosa
+<div align="center">
+  <img width="100%" src="./assets/profile-header.svg" alt="Mario Montosa — Economics, Computational Mathematics and Quantitative Research" />
+</div>
 
-**Economics & Computational Mathematics student building quantitative research and financial systems.**
+<br>
+
+<div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mario%20Montosa-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mario-montosa-s%C3%A1nchez-318841324/)
 [![Email](https://img.shields.io/badge/Email-contact.mario.montosa%40gmail.com-334155?style=flat-square&logo=gmail&logoColor=white)](mailto:contact.mario.montosa@gmail.com)
 [![Location](https://img.shields.io/badge/Barcelona%2C%20Spain-334155?style=flat-square&logo=googlemaps&logoColor=white)](https://www.google.com/maps/place/Barcelona)
 
+</div>
+
 I am pursuing a double degree in **Economics** and **Computational Mathematics & Data Analysis** at the **Universitat Autònoma de Barcelona**.
 
 My work sits at the intersection of financial markets, statistics and computation. I am particularly interested in **quantitative research**, **financial econometrics**, **systematic investing** and **model risk**—turning economic questions into models that can be tested with data.
+
+<div align="center">
+  <img width="100%" src="./assets/research-framework.svg" alt="Economics, mathematics and computation converge into quantitative research and testable evidence" />
+</div>
 
 ## Selected work
 

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="190" viewBox="0 0 1100 190" role="img" aria-labelledby="title desc">
+  <title id="title">Quantitative research framework</title>
+  <desc id="desc">Economics, mathematics and computation converge into quantitative research and reproducible evidence</desc>
+  <rect x=".5" y=".5" width="1099" height="189" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="32" y="35" fill="#8b949e" font-size="13" font-weight="600" letter-spacing="1.4">RESEARCH FRAMEWORK</text>
+    <g font-size="16" font-weight="600" text-anchor="middle">
+      <rect x="32" y="70" width="175" height="64" rx="10" fill="#161b22" stroke="#30363d"/>
+      <text x="119.5" y="108" fill="#c9d1d9">Economics</text>
+      <rect x="239" y="70" width="175" height="64" rx="10" fill="#161b22" stroke="#30363d"/>
+      <text x="326.5" y="108" fill="#c9d1d9">Mathematics</text>
+      <rect x="446" y="70" width="175" height="64" rx="10" fill="#161b22" stroke="#30363d"/>
+      <text x="533.5" y="108" fill="#c9d1d9">Computation</text>
+      <rect x="691" y="61" width="188" height="82" rx="12" fill="#111c2f" stroke="#2f81f7"/>
+      <text x="785" y="98" fill="#f0f6fc">Quantitative</text>
+      <text x="785" y="120" fill="#f0f6fc">research</text>
+      <rect x="927" y="70" width="141" height="64" rx="10" fill="#0b2942" stroke="#38bdf8"/>
+      <text x="997.5" y="98" fill="#7dd3fc">Testable</text>
+      <text x="997.5" y="119" fill="#7dd3fc">evidence</text>
+    </g>
+    <g fill="none" stroke-linecap="round" stroke-width="2">
+      <path d="M207 102h32M414 102h32M621 102h70" stroke="#484f58"/>
+      <path d="M879 102h48" stroke="#2f81f7"/>
+    </g>
+    <g fill="#484f58">
+      <path d="M239 102l-8-5v10z"/><path d="M446 102l-8-5v10z"/><path d="M691 102l-8-5v10z"/>
+    </g>
+    <path d="M927 102l-8-5v10z" fill="#2f81f7"/>
+  </g>
+</svg>
